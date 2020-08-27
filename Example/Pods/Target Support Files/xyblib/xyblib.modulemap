@@ -1,0 +1,6 @@
+framework module xyblib {
+  umbrella header "xyblib-umbrella.h"
+
+  export *
+  module * { export * }
+}

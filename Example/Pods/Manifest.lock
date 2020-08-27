@@ -1,0 +1,16 @@
+PODS:
+  - xyblib (0.1.0)
+
+DEPENDENCIES:
+  - xyblib (from `../`)
+
+EXTERNAL SOURCES:
+  xyblib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  xyblib: 9b7f4becd2ad16a0795a3fa00d6a37c3ba4ccf53
+
+PODFILE CHECKSUM: 7db5d2af745d86dfb527e8866a91f7d5369cc3a6
+
+COCOAPODS: 1.9.3

@@ -60,13 +60,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		77CDE0A705A56C318A897C11 /* xyblib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = xyblib.podspec; path = ../xyblib.podspec; sourceTree = "<group>"; };
-		7D916FC2D61729F857A5C277 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		77CDE0A705A56C318A897C11 /* xyblib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = xyblib.podspec; path = ../xyblib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7D916FC2D61729F857A5C277 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7F7E6460D1DA148A96BA1ED6 /* Pods_xyblib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xyblib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2C88905D6CD7D050DBB0015 /* Pods-xyblib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xyblib_Tests.release.xcconfig"; path = "Target Support Files/Pods-xyblib_Tests/Pods-xyblib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BFF9D22AFF0E6CD0ECC5953B /* Pods-xyblib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xyblib_Example.release.xcconfig"; path = "Target Support Files/Pods-xyblib_Example/Pods-xyblib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FAD553160213B9E76A4273F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FAD553160213B9E76A4273F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				48D834F33B9B1B23F1DD8CBD /* Pods-xyblib_Tests.debug.xcconfig */,
 				A2C88905D6CD7D050DBB0015 /* Pods-xyblib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,22 @@
+{
+  "name": "xyblib",
+  "version": "0.1.0",
+  "summary": "xybliblbbb",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Xidiyixiwocao/xyblib.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "许远备": "c-xuyb@spdbdev.com"
+  },
+  "source": {
+    "git": "https://github.com/Xidiyixiwocao/xyblib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "xyblib/Classes/**/*"
+}
