@@ -9,6 +9,6 @@
 
 @implementation PersonA
 -(void)printName{
-    NSLog(@"name====A");
+    NSLog(@"name====A(newversion)");
 }
 @end
